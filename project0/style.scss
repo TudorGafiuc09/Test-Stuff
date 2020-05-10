@@ -1,0 +1,33 @@
+$text-align: center;
+
+@media (min-width: 600px){
+    h1{
+        font-size:50px;
+        text-align: $text-align;
+        color:pink;
+      }
+    
+    p{
+        font-size:20px;
+        text-align:$text-align;
+    }
+    
+    .image{
+        position:relative;
+        top:30px;
+        left: 300px;
+    }
+
+    }
+    
+    @media (max-width: 576px){
+        h1{
+            font-size:30px;
+            text-align:$text-align;
+        }
+    
+        p{
+            font-size:20px;
+            text-align:$text-align;
+        }
+    } 

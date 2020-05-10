@@ -1,0 +1,30 @@
+$padding:10px;
+
+@media (min-width: 600px){
+    h1{
+        font-size:50px;
+        text-align:center;
+        color:pink;
+      }
+
+    h2{
+        padding-left:$padding;
+        text-decoration:underline;
+        color:purple;
+    }
+
+}
+
+@media (max-width: 576px){
+    h1{
+        font-size:30px;
+        text-align:center;
+        color:pink;
+    }
+
+    h2{
+        padding-left:$padding;
+        text-decoration:underline;
+        color:purple;
+    }
+}

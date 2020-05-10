@@ -1,0 +1,78 @@
+$padding: 20px;
+$color:purple;
+
+@media (min-width: 600px){
+    %properties-shared{
+        display:flex;
+        align-items: flex-start;
+        padding-right: $padding;
+    }
+    
+    h1{
+        font-size:50px;
+        text-align:center;
+        color:pink;
+      }
+
+    h2{
+        padding-left:$padding;
+        text-decoration:underline;
+        color:$color;
+    }
+    
+    p{
+        font-size:27px;
+        text-align:left;
+        padding-left:$padding;
+        padding-right:$padding;
+    }
+
+    div{
+    .Europe{
+        @extend %properties-shared;
+    }
+
+    #America{
+        @extend %properties-shared;
+    }
+}
+    
+}
+    
+    @media (max-width: 576px){
+        %properties-shared2{
+            display:flex;
+            align-items: flex-start;
+            padding-right: $padding;
+        }
+
+        h1{
+            font-size:30px;
+            text-align:center;
+            color:pink;
+        }
+
+        h2{
+            padding-left:$padding;
+            text-decoration:underline;
+            color:$color;
+        }
+    
+        p{
+            font-size:20px;
+            text-align:left;
+            padding-left:$padding;
+            padding-right:$padding;
+        }
+
+        div{
+        .Europe{
+            @extend %properties-shared2;
+        }
+
+        #America{
+            @extend %properties-shared2;
+        }
+    }
+
+    } 

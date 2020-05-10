@@ -1,0 +1,63 @@
+@media (min-width: 600px) {
+  div#America, div.Europe {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    color: pink;
+  }
+
+  h2 {
+    padding-left: 20px;
+    text-decoration: underline;
+    color: purple;
+  }
+
+  p {
+    font-size: 27px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  div.button{
+    padding-left:20px;
+  }
+}
+@media (max-width: 576px) {
+  div#America, div.Europe {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    color: pink;
+  }
+
+  h2 {
+    padding-left: 20px;
+    text-decoration: underline;
+    color: purple;
+  }
+
+  p {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  div.button{
+    padding-left:20px;
+  }
+  
+}
+
+/*# sourceMappingURL=shortHistory.css.map */
